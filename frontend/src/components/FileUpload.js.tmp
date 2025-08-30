@@ -1,0 +1,22 @@
+import React, { useState, useEffect, useCallback, lazy, Suspense } from 'react';
+import { 
+  Upload, 
+  FileText, 
+  Copy, 
+  Download, 
+  CheckCircle, 
+  Loader2,
+  Eye,
+  Clock,
+  MessageCircle,
+  RotateCcw,
+  AlertCircle
+} from 'lucide-react';
+import axios from 'axios';
+import { processExtractedText } from '../utils/pdfUtils';
+import FilePreviewCard from './FilePreviewCard';
+import PageResult from './PageResult';
+import './FileUpload.css';
+
+// Lazy load ChatInterface
+const ChatInterface = lazy(() => import('./ChatInterface'));

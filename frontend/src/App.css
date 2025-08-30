@@ -1,0 +1,113 @@
+/* Simple Professional Dark Theme */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(29, 28, 34);
+  color: #123563;
+}
+
+/* App wrapper */
+.app-wrapper {
+  position: relative;
+  z-index: 1;
+  min-height: 100vh;
+}
+
+/* Background video */
+.background-video {
+  position: fixed;
+  top: 0;
+  left: 0;
+  min-width: 100vw;
+  min-height: 100vh;
+  object-fit: cover;
+  opacity: 0.15;
+  z-index: -1;
+}
+
+/* Header layout */
+.app-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 25px 40px 10px;
+  flex-wrap: wrap;
+}
+
+.header-left,
+.header-center,
+.header-right {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-left {
+  justify-content: flex-start;
+}
+
+.header-right {
+  justify-content: flex-end;
+}
+
+/* Logo */
+.ongc-logo {
+  height: 60px;
+  width: auto;
+  object-fit: contain;
+}
+
+/* Title */
+.header-center h1 {
+  font-size: 2.3rem;
+  color: #d3d8e9f3;
+  margin: 0;
+  text-align: center;
+}
+
+/* Main container */
+.container {
+  padding: 20px 40px;
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-style: inherit;
+  font-weight: 200;
+  font-variant: small-caps;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .app-header {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .header-left,
+  .header-center,
+  .header-right {
+    justify-content: center;
+  }
+
+  .header-center h1 {
+    font-size: 1.7rem;
+  }
+}
+
+.header-ai-btn {
+  background: linear-gradient(45deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 20px;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.header-ai-btn:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(102, 126, 234, 0.4);
+}
