@@ -23,7 +23,7 @@ An advanced OCR system leveraging Vision-Language Models (VLMs) for high-accurac
 
 **Large model files (~28GB total) are not included in this repository** due to their large size.
 
-**📋 Model Setup Required:** See [MODELS.md](OCRproject/models/MODELS.md) for detailed download and installation instructions.
+**📋 Model:** See [MODELS.md](./models/MODELS.md).
 
 **Required Models:**
 - olmOCR-7B-0225-preview (~13GB)  
@@ -59,7 +59,7 @@ An advanced OCR system leveraging Vision-Language Models (VLMs) for high-accurac
 - **Offline Operation**: Models run entirely on local servers without internet dependency
 - **Data Privacy**: Sensitive documents never leave the organization's infrastructure
 - **Zero Cloud Dependency**: Complete processing pipeline operates offline for maximum security
-- **Enterprise Ready**: Designed for deployment on GEOPIC's secure local servers
+- **Enterprise Ready**: Designed for deployment on secure local servers
 
 ### 🎯 Advanced OCR Capabilities
 - **Vision-Language Models**: Custom-trained models for superior accuracy
@@ -75,7 +75,7 @@ An advanced OCR system leveraging Vision-Language Models (VLMs) for high-accurac
 ### 🔧 Technical Excellence
 - **Scalable Architecture**: FastAPI backend with React frontend
 - **Error Handling**: Graceful fallbacks and error recovery
-- **Performance Optimized**: Efficient processing with 300 DPI quality
+- **Performance Optimized**: Efficient processing with high resolution quality
 
 ## System Architecture
 
@@ -91,8 +91,8 @@ The system follows a three-tier architecture:
 - **Security**: 100% offline operation ensuring sensitive data never leaves local infrastructure
 - **Accuracy**: Achieved ≥95% accuracy with significant improvement over traditional OCR methods
 - **Speed**: Real-time processing with efficient page-by-page streaming
-- **User Experience**: Seamless drag-and-drop interface with Embedded AI assistant for real-time queries based on extracted text.
-- **Scalability**: Designed for enterprise deployment at ONGC
+- **User Experience**: Seamless drag-and-drop interface with Embedded AI assistant for real-time queries based on extracted text
+- **Scalability**: Designed for enterprise deployment
 
 ## 🎬 Project Demonstrations
 
